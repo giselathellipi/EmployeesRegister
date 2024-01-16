@@ -1,0 +1,76 @@
+.container-button {
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+}
+
+.generic_button {
+    border: 1px;
+    background: rgba(71, 121, 173, 1);
+    ;
+    /* box-shadow: -6px -4px 15px #ffffff, 4px 4px 15px #c4c4c4; */
+    border-radius: 4.3px;
+    font-family: "Space Grotesk", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    width: 100%;
+    max-width: 130px;
+    height: 50px;
+}
+
+.generic_login_button {
+    background: #16324f;
+    box-shadow: -6px -4px 15px #ffffff, 4px 4px 15px #c4c4c4;
+    border-radius: 42px;
+    border: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.generic_register_button {
+    color: #ffffff;
+}
+
+.modal-button {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262c2f;
+    text-align: center;
+    background: #bed62f;
+    border-radius: 7px;
+    border-color: #bed62f;
+    margin: 10px 0 10px 0;
+    min-height: 40px;
+    min-width: 100%;
+    cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+    border: 1px solid #d2cfcf;
+    background-color: #e6e1e1;
+    color: #5a5858;
+}
+
+@media only screen and (max-width: 768px) {
+    .generic_button {
+        max-width: 121px;
+        height: 42px;
+    }
+    .register-text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 28px;
+    }
+}

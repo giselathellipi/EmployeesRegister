@@ -1,0 +1,62 @@
+.registero-del-azienda-container {
+  margin: 2% auto;
+  /* width: 40%;
+      max-width: 736px; */
+  width: 100%;
+  max-width: 563px;
+  background: #ffffff;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 2px 20px 23px 20px;
+}
+
+.registero-del-azienda-content-holder h1 {
+  text-align: center;
+  margin: 25px;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  color: black;
+  font-size: 26px;
+}
+
+.gdl {
+  flex: 1;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  color: #16324f;
+  font-size: 17px;
+}
+
+.presenza {
+  flex: 1;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  color: #16324f;
+  font-size: 17px;
+}
+
+.dynamic-border {
+  border-left: 2px solid red;
+}
+
+.registero-del-azienda-inputs-container {
+  display: flex;
+  /* padding-bottom: 25px; */
+}
+
+.registero-del-azienda-inputs-content-holder {
+  flex: 1;
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .registero-del-azienda-inputs-container {
+    display: block;
+  }
+  .registero-del-azienda-container {
+    max-width: 306px;
+  }
+  .registero-del-azienda-content-holder h1 {
+    font-size: 25px;
+  }
+}

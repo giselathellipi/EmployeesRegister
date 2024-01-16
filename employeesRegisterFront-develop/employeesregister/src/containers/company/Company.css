@@ -1,0 +1,31 @@
+.copmany-content-holder h1 {
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    color: rgb(73, 73, 73);
+    padding-top: 10%;
+    margin: 0 10px 50px 0px;
+}
+
+.company-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    justify-content: space-evenly;
+    max-width: 1000px;
+    /* Adjust this value based on the number and width of cards */
+    margin: 0 auto;
+    /* To center the cards horizontally */
+}
+
+.add-image {
+    width: 100%;
+    max-width: 76px;
+}
+
+.company-page {
+    background: linear-gradient(135deg, hsl(0, 0%, 100%),rgba(71, 121, 173, 9) );
+    width: 100vw;
+    height: 100vh;
+}

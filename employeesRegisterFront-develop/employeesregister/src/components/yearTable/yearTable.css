@@ -1,0 +1,16 @@
+.table-container {
+    overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+  }
+  
+  .responsive-table {
+    width: 100%;
+    white-space: nowrap; /* Prevent table cells from wrapping */
+  }
+  td:empty {
+    background-color: #f7f7f7; /* Choose the color you want for empty cells */
+  }
+  .responsive-table th,
+  .responsive-table td {
+    min-width: 700px; /* Set minimum width for table cells */
+  }
+  

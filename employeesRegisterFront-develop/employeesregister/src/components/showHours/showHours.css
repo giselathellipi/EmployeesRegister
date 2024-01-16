@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-page {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table1 {
+    margin-top: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-container {
+    border-radius: 4px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 14px;
+}
+td:empty {
+    background-color: #f7f7f7; /* Choose the color you want for empty cells */
+  }
+
+th {
+    background-color: rgba(71, 121, 173, 9);
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: rgba(71, 121, 173, 9);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4);
+}
+
+.button:active {
+    background-color: #003d80;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.head>* {
+    margin-right: 20px;
+}
+
+.inputt {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.inputt:focus {
+    outline: none;
+}
+
+
+/* Dropdown.css */
+
+.dropdown-container {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid rgba(71, 121, 173, 9);
+    border-radius: 4px;
+}
+
+.dropdown-select:focus {
+    outline: none;
+    border-color: rgba(71, 121, 173, 9);
+    box-shadow: rgba(71, 121, 173, 9);
+}
+
+p {
+    margin-top: 8px;
+    font-size: 14px;
+}

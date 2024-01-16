@@ -1,0 +1,83 @@
+.allpagee {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 10   px;
+}
+.droppdown {
+  /* display: flex;
+    justify-content: space-evenly; */
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 25%;
+  
+ min-width: 280px;
+ /* max-width: 400px;  */
+}
+.alldropdown{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.dropdown-item {
+  /* width: 70%; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.dropdown-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Style the select elements inside the Dropdown components */
+
+/* For DropdownYear */
+select.dropdown-select {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* For DropdownEmployee */
+select.dropdown-select {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the options inside the select dropdown */
+select.dropdown-select option {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Add a hover effect to options */
+select.dropdown-select option:hover {
+  background-color: #f0f0f0;
+}
+
+.chart {
+  flex: 4;
+  height: 500px;
+  width: 97%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+@media screen and (max-width: 601px) {
+  .chart {
+    flex: 4;
+    height: 200px;
+    width: 100%;
+  }
+}

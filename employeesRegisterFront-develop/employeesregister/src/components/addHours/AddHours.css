@@ -1,0 +1,167 @@
+/* .table-container {
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 8px;
+  text-align: left;
+}
+
+.table-container th:first-child,
+.table-container td:first-child {
+  width: 70%;
+}
+
+.table-container th:nth-child(2),
+.table-container td:nth-child(2) {
+  width: 30%;
+}
+
+.table-container input {
+  width: 100%;
+  padding: 4px;
+}
+.table1 {
+  max-width: 600px;
+}
+.add-page {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  align-items: center;
+  margin-top:40%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.table-container input {
+  width: 80%;
+  padding: 4px;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-page {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.table2 {
+  margin-top: 20px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-container {
+  min-width: "450px";
+  border-radius: 4px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: rgba(71, 121, 173, 9);
+  color: white;
+  font-weight: bold;
+}
+
+.inputt {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: rgba(71, 121, 173, 9);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4);
+}
+
+.button:active {
+  background-color: #003d80;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+.head > * {
+  margin-right: 20px;
+}
+
+.inputt {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.inputt:focus {
+
+    outline: none;
+}
+
+.invalid-input {
+    color: red; 
+}
+
+

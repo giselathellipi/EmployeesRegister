@@ -1,0 +1,67 @@
+.simple-diagram {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.node {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.node-content {
+  position: relative;
+  z-index: 1;
+}
+
+.start-node {
+  background-color: #9bc837;
+}
+
+.middle-node {
+  background-color: #3498db;
+}
+
+.end-node {
+  background-color: #e74c3c;
+}
+
+.connector {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+.connection {
+  position: absolute;
+  display: flex;
+}
+
+.connection .connector {
+  margin-top: 25px;
+}
+
+.connection:first-child .connector {
+  margin-right: -5px;
+}
+
+.connection:last-child .connector {
+  margin-left: -5px;
+}
+
+.diagram-container {
+  width: 100%;
+  height: 100%;
+}

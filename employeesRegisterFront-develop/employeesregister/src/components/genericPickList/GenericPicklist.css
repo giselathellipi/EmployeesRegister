@@ -1,0 +1,53 @@
+/* RuoloPicklist.css */
+
+.ruolo-picklist-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.label_desc {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.asterik {
+    color: red;
+}
+
+.input_icon_container {
+    position: relative;
+}
+
+.select-tag {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.select-tag:focus {
+    border-bottom-color: #ddd;
+}
+
+.icon-div {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+}
+
+.img-tag {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Additional styles for customization */
+
+
+/* Add your own styles here */

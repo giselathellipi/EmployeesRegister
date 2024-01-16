@@ -1,0 +1,31 @@
+.table-Cell {
+  border-right: 1px solid #e0dede;
+  padding: 8px;
+}
+
+.table-Celll {
+  border-right: 1px solid #000;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.transparent-datepicker {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  width: 100%;
+  max-width: 50px;
+}
+
+.transparent-datepicker:focus {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.datepicker-label {
+  cursor: pointer;
+}
